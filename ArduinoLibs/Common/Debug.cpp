@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "Debug.h"
+#include "ESP_Debug.h"
 
 extern "C" {
 	#include "user_interface.h"
