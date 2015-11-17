@@ -5,12 +5,12 @@
 #include <ip_addr.h>
 #include <espconn.h>
 const char *authModeToString(AUTH_MODE mode);
-void checkError(sint8 err);
-void delayMilliseconds(uint32 milliseconds);
-void dumpBSSINFO(struct bss_info *bssInfo);
-void dumpEspConn(struct espconn *pEspConn);
-void dumpRestart();
-void dumpState();
+void        checkError(sint8 err);
+void        delayMilliseconds(uint32 milliseconds);
+void        dumpBSSINFO(struct bss_info *bssInfo);
+void        dumpEspConn(struct espconn *pEspConn);
+void        dumpRestart();
+void        dumpState();
 const char *errorToString(sint8 err);
 void eventLogger(System_Event_t *event);
 const char *eventReasonToString(int reason);
